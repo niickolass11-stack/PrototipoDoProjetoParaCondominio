@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+
+<html lang="pt-BR">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Painel Administrativo</title>
+
+    <link rel="stylesheet" href="css/style.css">
+
+</head>
+
+<body>
+
+    <header class="cabecalho">
+
+        <h1>🏢 Administração do Condomínio</h1>
+
+    </header>
+
+
+    <main class="admin-container">
+
+        <section class="admin-boas-vindas">
+
+            <h2>Olá, Síndico!</h2>
+
+            <p>
+                Aqui você pode acompanhar a situação
+                dos pagamentos do condomínio.
+            </p>
+
+        </section>
+
+
+        <section class="resumo-pagamentos">
+
+            <h2>Situação dos pagamentos</h2>
+
+            <div class="resumo-cards">
+
+                <div class="card-admin">
+
+                    <h3>Total de apartamentos</h3>
+
+                    <p>4</p>
+
+                </div>
+
+
+                <div class="card-admin">
+
+                    <h3>Pagamentos confirmados</h3>
+
+                    <p>2</p>
+
+                </div>
+
+
+                <div class="card-admin">
+
+                    <h3>Pagamentos pendentes</h3>
+
+                    <p>2</p>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <section class="lista-apartamentos">
+
+            <h2>Apartamentos</h2>
+
+
+            <div class="apartamento-admin">
+
+                <div>
+
+                    <a href="apartamento-101.html">
+                        <strong>Apartamento 101</strong>
+                    </a>
+
+                    <p>Responsável: João</p>
+
+                </div>
+
+                <div>
+
+                    <p>R$ 250,00</p>
+
+                    <p id="status-101" class="status-pendente">
+                        🔴 Pendente
+                    </p>
+
+                    <button
+                        id="confirmar-101"
+                        class="botao-confirmar"
+                        >
+
+                        Confirmar pagamento
+                    </button>
+                    
+
+                </div>
+
+            </div>
+
+
+            <div class="apartamento-admin">
+
+                <div>
+
+                    <a href="detalhes.html?apartamento=102">
+                    <strong>Apartamento 102</strong>
+
+                    </a>
+                    <p>Responsável: Maria</p>
+
+                </div>
+
+                <div>
+
+                    <p>R$ 250,00</p>
+
+                    <p class="status-pago">
+                        🟢 Pago
+                    </p>
+
+                </div>
+
+            </div>
+
+
+            <div class="apartamento-admin">
+
+                <div>
+
+                    <a href="detalhes.html?apartamento=103">
+                    <strong>Apartamento 103</strong>
+
+                    </a>
+                    <p>Responsável: Carlos</p>
+
+                </div>
+
+                <div>
+
+                    <p>R$ 250,00</p>
+
+                    <p class="status-pendente">
+                        🔴 Pendente
+                    </p>
+
+                </div>
+
+            </div>
+
+
+            <div class="apartamento-admin">
+
+                <div>
+
+                    <a href="detalhes.html?apartamento=104">
+                    <strong>Apartamento 104</strong>
+
+                    </a>
+                    <p>Responsável: Pedro</p>
+
+                </div>
+
+                <div>
+
+                    <p>R$ 250,00</p>
+
+                    <p class="status-pago">
+                        🟢 Pago
+                    </p>
+
+                </div>
+
+            </div>
+
+        </section>
+
+    </main>
+
+    <script src="js/admin.js"></script>
+
+</body>
+
+</html>
