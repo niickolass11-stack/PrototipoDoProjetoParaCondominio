@@ -17,7 +17,7 @@
 
 ## 🚧 Status do projeto
 
-🟡 **Protótipo em desenvolvimento.**
+🟢 Protótipo inicial publicado — em desenvolvimento.
 
 O projeto atualmente possui uma versão inicial da interface e algumas funcionalidades implementadas utilizando JavaScript.
 
